@@ -434,7 +434,7 @@ public class FrmVenta extends javax.swing.JInternalFrame {
 
         jLabel5.setText("Tipo Comprobante (*)");
 
-        cboTipoComprobante.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "BOLETA", "FACTURA", "TICKET", "GUIA" }));
+        cboTipoComprobante.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "FACTURA", "BOLETA", "TICKET", "GUIA" }));
         cboTipoComprobante.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 cboTipoComprobanteActionPerformed(evt);
